@@ -7,7 +7,7 @@ import Link from "next/link";
 import { HiAtSymbol, HiFingerPrint } from "react-icons/hi";
 import { useSession, signIn, signOut } from "next-auth/react";
 import { useRouter } from "next/router";
-import LOGO from "../public/LOGO.png";
+import LOGO from "../public/LOGO.jpg";
 
 function Login({ children }) {
   const { data: session, loading } = useSession();
@@ -41,7 +41,7 @@ function Login({ children }) {
                 <section className="w-3/4 mx-auto flex flex-col gap-10">
                   <div>
                     <Image
-                      className="mx-auto rounded-full md:h-[100px] md:w-[100px]"
+                      className="mx-auto rounded-3xl md:h-[100px] md:w-[100px]"
                       src={LOGO}
                       alt=""
                       width="600"
@@ -110,7 +110,7 @@ function Login({ children }) {
                     </div>
                   </form>
                   <p>
-                    Don't have an account yet?{" "}
+                    Do not have an account yet?{" "}
                     <Link href={"/Register"} className="text-blue-600">
                       Sign Up
                     </Link>

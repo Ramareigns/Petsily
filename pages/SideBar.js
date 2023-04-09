@@ -13,7 +13,7 @@ import {
 } from "react-icons/hi";
 import Image from "next/image";
 import ProfPic from "../public/Dog1.jpg";
-import LOGO from "../public/LOGO.png";
+import LOGO from "../public/LOGO.jpg";
 import Link from "next/link";
 import { useSession } from "next-auth/react";
 
@@ -29,7 +29,7 @@ function SideBar() {
         {/* <div className="Sticky left-0 bg-gradient-to-b from-green-400 to-green-500 p-2 flex-grow  max-w-[400px]  xl:min-w-[300px] h-full border-r-4 border-black"> */}
         <div className="flex items-center justify-center hoverEffect p-0 mt-5 ">
           <Image
-            className="rounded-full md:h-[100px] md:w-[100px]"
+            className="rounded-3xl md:h-[100px] md:w-[100px]"
             src={LOGO}
             alt=""
             width="600"
@@ -115,8 +115,8 @@ function SideBar() {
             height="600"
           />
           <div className="flex-1 font-bold">
-            <h4 className="">{session.user.name}</h4>
-            <p className="text-xs">{session.user.email}</p>
+            <h4 className="">Ramith Wijesinghe</h4>
+            <p className="text-xs">rwijesin@terpmail.umd.edu</p>
           </div>
 
           <HiDotsHorizontal
