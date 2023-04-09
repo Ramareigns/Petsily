@@ -83,7 +83,7 @@ function ChatSideBar() {
               <div className="flex items-end mb-4">
                 <div className="bg-green-500 rounded-lg p-3">
                   <p className="text-white font-medium">
-                    I'm good, thanks for asking! Patches is also doing good
+                    I am good, thanks for asking! Patches is also doing good
                   </p>
                 </div>
               </div>
