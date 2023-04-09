@@ -4,11 +4,11 @@ import { HiOutlineHeart, HiHeart, HiDotsHorizontal, HiShare, HiChat } from "reac
 import Image from "next/image";
 import { DotsHorizontalIcon } from "@heroicons/react/outline";
 
-import Story1 from "../public/Dog1.jpg";
-import Story2 from "../public/Cat3.jpg";
-import Story3 from "../public/Dog3.jpg";
-import Story4 from "../public/Dog4.jpg";
-import Story5 from "../public/HDog1.jpg";
+import Story1 from "../public/Cat4.jpg";
+import Story2 from "../public/Dog1.jpg";
+import Story3 from "../public/Cat7.jpg";
+import Story4 from "../public/A1.jpg";
+import Story5 from "../public/A2.jpg";
 
 import RW from "../public/Dog1.jpg";
 import JB from "../public/JB.jpeg";
@@ -53,7 +53,7 @@ function HomePage() {
 
         <p className="p-5 truncate">
           <span className ="font-bold text-lg mr-1">Ramith </span> 
-          <span className="text-gray-600">Nice Puggy</span>
+          <span className="text-gray-600">Thats the Cutest Kitty Everrrrr</span>
         </p>
 
       </div>
@@ -85,7 +85,7 @@ function HomePage() {
 
         <p className="p-5 truncate">
           <span className ="font-bold text-lg mr-1">Nancy </span> 
-          <span className="text-gray-600">Thats the Cutest Kitty Everrrrr</span>
+          <span className="text-gray-600">Nice Puggy</span>
         </p>
 
       </div>
@@ -117,7 +117,7 @@ function HomePage() {
 
         <p className="p-5 truncate">
           <span className ="font-bold text-lg mr-1">Ramith </span> 
-          <span className="text-gray-600">Ha HA hA</span>
+          <span className="text-gray-600">Elegant cat...XD</span>
         </p>
 
       </div>
@@ -149,7 +149,7 @@ function HomePage() {
 
         <p className="p-5 truncate">
           <span className ="font-bold text-lg mr-1">James </span> 
-          <span className="text-gray-600">I love when babies play</span>
+          <span className="text-gray-600">I love when babies eat</span>
         </p>
         <p className="pl-5 pb-2 truncate">
           <span className ="font-bold text-lg mr-1">Jacky</span> 
@@ -185,7 +185,7 @@ function HomePage() {
 
         <p className="p-5 truncate">
           <span className ="font-bold text-lg mr-1">Ramith </span> 
-          <span className="text-gray-600">AWWWWWWW</span>
+          <span className="text-gray-600">Cute tattoo</span>
         </p>
 
       </div>
