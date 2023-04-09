@@ -16,8 +16,8 @@ import BC from "../public/BC.jpg";
 
 function HomePage() {
   return (
-    <div id="Home" className="w-[1150px] ">
-      <div className="w-[1400px]  flex items-center justify-between bg-green-400 px-48 py-3">
+    <div id="Home" className="w-screen ">
+      <div className="  flex items-center justify-between bg-green-400 px-48 py-3">
         <input
           type="text"
           name="cSearch"

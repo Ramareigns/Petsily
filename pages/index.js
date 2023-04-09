@@ -28,11 +28,7 @@ export default function Home({ session }) {
         <main className="flex">
           <SideBar />
           <HomePage />
-          <News/>
-          <Notification />
-          <ChatSideBar />
-          <Store />
-          <Settings />
+          
 
         </main>
       </div>
