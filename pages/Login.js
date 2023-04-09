@@ -110,7 +110,7 @@ function Login({ children }) {
                     </div>
                   </form>
                   <p>
-                    Don't have an account yet?{" "}
+                    Do not have an account yet?{" "}
                     <Link href={"/Register"} className="text-blue-600">
                       Sign Up
                     </Link>
