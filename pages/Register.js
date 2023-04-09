@@ -3,7 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import LoginPic from "../public/Dog1.jpg";
 import Link from "next/link";
-import LOGO from "../public/LOGO.png";
+import LOGO from "../public/LOGO.jpg";
 import { HiAtSymbol, HiFingerPrint, HiEmojiHappy } from "react-icons/hi";
 
 function Register() {
@@ -30,7 +30,7 @@ function Register() {
                 <section className="w-3/4 mx-auto flex flex-col gap-10">
                   <div>
                     <Image
-                      className="mx-auto rounded-full md:h-[80px] md:w-[80px]"
+                      className="mx-auto rounded-3xl md:h-[80px] md:w-[80px]"
                       src={LOGO}
                       alt=""
                       width="600"
